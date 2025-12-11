@@ -68,7 +68,7 @@ function App() {
             <textarea
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Paste your prompt here (50,000+ characters)..."
+              placeholder="Paste your prompt here..."
               className="w-full h-48 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-y font-mono text-sm"
             />
             <div className="mt-2 flex justify-between items-center text-sm text-gray-600">
